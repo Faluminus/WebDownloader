@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+<head>
+    <meta charset="utf-8">
+    <!-- OneTrust Cookies Consent Notice start for kfc.cz -->
+    <script type="text/javascript" src="https://cdn.cookielaw.org/consent/e06803d0-aff7-456f-9295-e405d313e468/OtAutoBlock.js"></script>
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="e06803d0-aff7-456f-9295-e405d313e468"></script>
+    <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for kfc.cz -->
+
+    <!-- Analytics Page Location Data Layer -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            originalLocation: document.location.protocol + '//' +
+                document.location.hostname +
+                document.location.pathname +
+                document.location.search
+        });
+    </script>
+    <!-- End Analytics Page Location Data Layer -->
+
+<!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KWHWPGW');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <meta name="theme-color" content="#CE0A06">
+    <link rel="icon" href="https://amrestcdn.azureedge.net/kfc-web-ordering/assets/favicon.ico"><!-- 32×32 -->
+    <link rel="icon" href="https://amrestcdn.azureedge.net/kfc-web-ordering/assets/img/favicon/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://amrestcdn.azureedge.net/kfc-web-ordering/assets/img/PWA/logo_180x180.png"><!-- 180×180 -->
+    <link rel="preload" href="/assets/fonts/Brandon_reg.otf" as="font" type="font/otf" crossorigin="">
+    <link rel="preload" href="/assets/fonts/Brandon_med.otf" as="font" type="font/otf" crossorigin="">
+    <link rel="preload" href="/assets/fonts/Brandon_bld.otf" as="font" type="font/otf" crossorigin="">
+    <link rel="preload" href="/assets/fonts/Brandon_blk.otf" as="font" type="font/otf" crossorigin="">
+    <link rel="preload" href="/assets/icons/icons.eot" as="font" type="font/eot" crossorigin="">
+    <link rel="preload" href="/assets/icons/icons.ttf?nsizcp" as="font" type="font/ttf" crossorigin="">
+    <link rel="preload" href="/assets/icons/icons.woff" as="font" type="font/woff" crossorigin="">
+    <link rel="preconnect" href="//adservice.google.pl">
+    <link rel="preconnect" href="//adservice.google.com">
+    <link rel="preconnect" href="//www.google-analytics.com">
+    <link rel="preconnect" href="//www.googleadservices.com">
+    <link rel="preconnect" href="//cdn.cookielaw.org">
+    <link rel="preconnect" href="//googleads.g.doubleclick.net">
+    <link rel="preconnect" href="//www.googletagmanager.com">
+    <link rel="preconnect" href="//sawepecomcdn.blob.core.windows.net">
+    <link rel="preconnect" href="//amrestcdn.azureedge.net">
+
+    <meta name="robots" content="index,follow">
+    <meta name="google-site-verification" content="cZ3Kh8gcIn319ZTgBhMJL1TTF0wtCRC1FVwgj-kAhJ8"/>
+    <script>!function (d, e) { window.addEventListener('load', function () { if (!window.noBlocker && !window.google_tag_manager) { for (var t = new XMLHttpRequest, n = (new Date).getTime() + Math.floor(1e8 * Math.random()), o = 'ab_gc=', a = document.cookie.split(';'), i = 0; i < a.length; i++) { for (var c = a[i]; ' ' == c.charAt(0);)c = c.substring(1); 0 == c.indexOf(o) && (n = c.substring(o.length, c.length)) } t.open('POST', 'https://www.google-analytics.com/collect'); var r = 'tid=' + e + '&cd' + d + '=true&t=pageview&dp=' + document.location.pathname + '&v=1&cid=' + n; t.send(r); var g = new Date; g.setTime(g.getTime() + 63072e6); var d = 'expires=' + g.toUTCString(); document.cookie = 'ab_gc=' + n + '; ' + d } }) }('1', 'UA-158806674-1');</script>
+    <meta http-equiv="content-language" content="cs-CZ">
+    <!-- Meta tag for Google Search Console -->
+    <meta name="google-site-verification" content="googlec07fc61ffe6a8150.html">
+
+    <style>
+        body, html {
+            height: 100%;
+            min-height: 100vh;
+        }
+
+        body {
+            margin: 0;
+            background-color: #f7f4f3;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5
+        }
+
+        .app-loading {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        img {
+            border-style: none;
+            vertical-align: middle;
+        }
+
+        .app-loading .spinner {
+            height: 200px;
+            width: 200px;
+            -webkit-animation: svg_rotate 2s linear infinite;
+            animation: svg_rotate 2s linear infinite;
+            transform-origin: center center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+            .app-loading .spinner .path {
+                stroke-dasharray: 100, 200;
+                stroke-width: 1;
+                stroke-dashoffset: -70px;
+                /*-webkit-animation: svg_dash 1.5s ease-in-out infinite;*/
+                /*animation: svg_dash 1.5s ease-in-out infinite;*/
+                stroke-linecap: round;
+                stroke: #ce0a06;
+            }
+
+        @keyframes svg_rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes svg_rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes svg_dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+            }
+
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35px;
+            }
+
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124px;
+            }
+        }
+
+        @-webkit-keyframes svg_dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+            }
+
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35px;
+            }
+
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124px;
+            }
+        }
+    </style>
+<link rel="stylesheet" href="styles.11bd734a87adc475.css"></head>
+<body>
+<script type="text/javascript" src="https://secure.payu.com/javascript/sdk"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWHWPGW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <app>
+        <style>
+            body {
+                overflow: hidden;
+            }
+        </style>
+        <div class="app-loading">
+            <div class="logo">
+                <img src="https://amrestcdn.azureedge.net/kfc-web-ordering/assets/img/common/kfc_logo.svg" width="100" height="100" alt="KFC.CZ"/>
+            </div>
+            <svg class="spinner" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+            </svg>
+        </div>
+    </app>
+    <script>
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for (var i = 0; i <= registrations.length - 1; i++) {
+                registrations[i].unregister();
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        var _smid = "c00d93e26762fd13";
+        var _smapp = 2;
+        (function(w, r, a, sm, s ) {
+            w['SalesmanagoObject'] = r;
+            w[r] = w[r] || function () {( w[r].q = w[r].q || [] ).push(arguments)};
+            sm = document.createElement('script'); sm.type = 'text/javascript'; sm.async = true; sm.src = a;
+            s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(sm, s);
+        })(window, 'sm', ('https:' == document.location.protocol ? 'https://' : 'http://') + 'app2.salesmanago.pl/static/sm.js');
+    </script>
+<script src="runtime.845686bec41221c4.js" type="module"></script><script src="polyfills.b95bcd00222d0d84.js" type="module"></script><script src="main.02bf3756dcb244be.js" type="module"></script></body>
+</html>
