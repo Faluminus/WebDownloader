@@ -16,7 +16,7 @@ namespace Downloader
         public static async Task Main(string[] args)
         {
             WebDownloader down = new WebDownloader("https://kfc.cz");
-            await down.Url("https://kfc.cz").Download("KFC");
+            await down.Url("https://kfc.cz").Download("KFC",@"C:\Users\semra\source\repos\Downloader\Downloader\Stuff");
         }
     }
 
@@ -39,9 +39,8 @@ namespace Downloader
             return new WebDownloader(this.urls.Add(url));
         }
 
-        public async Task Download(string fileName)
+        public async Task Download(string fileName , string directory)
         {
-            string directory = @"C:\Users\semra\source\repos\Downloader\Downloader\Stuff";
             using (var client = new HttpClient())
             {
                 foreach (var url in urls)
